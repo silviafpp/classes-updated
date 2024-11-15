@@ -7,11 +7,8 @@ int main() {
     Carro carro("Porsche", 2);
     Moto moto("Desportiva", "Desportivo");
 
-    Veiculo* veiculos[] = { &carro, &moto };
-
-    for (Veiculo* veiculo : veiculos) {
-        veiculo->mostrarDetalhes();
-    }
+    carro.mostrarDetalhes();
+    moto.mostrarDetalhes();
 
     return 0;
 }
