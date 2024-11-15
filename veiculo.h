@@ -9,7 +9,7 @@ protected:
 public:
     Veiculo(const string &nome);
 
-    virtual void mostrarDetalhes() const = 0;
+    virtual void mostrarDetalhes() const;
 
     virtual ~Veiculo() = default; 
 };
